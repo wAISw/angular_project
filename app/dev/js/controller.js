@@ -1,7 +1,7 @@
 "use strict";
 
 var trackerApp = angular.module('trackerApp', ['ui.router']);
-trackerApp.config(function($stateProvider, $urlRouterProvider) {
+trackerApp.config(["$stateProvider", "$urlRouterProvider","$locationProvider", function($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
     $stateProvider
         .state('About', {
@@ -16,4 +16,5 @@ trackerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/contact',
             templateUrl: 'partials/partial-contacts.html'
         });
-});
+    $locationProvider.html5Mode(true);
+}]);
