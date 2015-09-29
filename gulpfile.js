@@ -25,7 +25,7 @@ gulp.task('connect', function() {
 gulp.task('watch', function(){
     gulp.watch('app/dev/css', ['css']);
     gulp.watch('app/dev/js', ['js']);
-    gulp.watch('app/dev/index.html', ['html']);
+    gulp.watch('app/dev/*/*.html', ['html', 'inject']);
     gulp.watch('app/dev/index.html', ['inject']);
 });
 
