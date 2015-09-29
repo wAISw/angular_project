@@ -11,6 +11,7 @@ var gulp = require('gulp'),
     series = require('stream-series'),
     livereload = require('gulp-livereload'),
     inject = require('gulp-inject'),
+    ngAnnotate = require('gulp-ng-annotate'),
     notify = require('gulp-notify');
 
 // connect
@@ -23,8 +24,9 @@ gulp.task('connect', function() {
 
 // watch
 gulp.task('watch', function(){
-    gulp.watch('app/dev/css', ['css']);
-    gulp.watch('app/dev/js', ['js']);
+    gulp.watch('app/dev/*/*.css', ['css']);
+    gulp.watch('app/dev/*/*.json', ['json']);
+    gulp.watch('app/dev/*/*.js', ['js']);
     gulp.watch('app/dev/*/*.html', ['html', 'inject']);
     gulp.watch('app/dev/index.html', ['inject']);
 });
@@ -43,8 +45,7 @@ gulp.task('css', function () {
         .pipe(prefix({
             browsers: ['last 40 versions']
         }))
-        .pipe(minifyCss(''))
-        .pipe(rename('style.min.css'))
+        .pipe(minifyCss('style.min.css'))
         .pipe(gulp.dest('app/prod/css'))
         .pipe(connect.reload());
 });
@@ -63,6 +64,7 @@ gulp.task('js', function(){
     gulp.src([
         "app/dev/js/*.js"
     ])
+        .pipe(ngAnnotate())
         .pipe(concat('main.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('app/prod/js'))
@@ -71,7 +73,7 @@ gulp.task('js', function(){
 });
 
 // inject
-gulp.task('inject', ['html'], function(){
+gulp.task('inject', ['html', 'css'], function(){
 
     var target =  gulp.src('app/dev/index.html');
 
@@ -97,6 +99,12 @@ gulp.task('html',['js'], function(){
         .pipe(gulp.dest('app/prod/'))
         .pipe(connect.reload());
 });
+// json
+gulp.task('json',['js', 'html', 'inject'], function(){
+    gulp.src('app/dev/**/*.json')
+        .pipe(gulp.dest('app/prod/'))
+        .pipe(connect.reload());
+});
 
 // default
-gulp.task('default', ['connect', 'css', 'js', 'html', 'inject', 'watch']);
+gulp.task('default', ['connect', 'css', 'js', 'json', 'html', 'inject', 'watch']);
