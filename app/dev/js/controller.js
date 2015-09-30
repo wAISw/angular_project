@@ -2,7 +2,10 @@
     "use strict";
 
     angular
-        .module('trackerApp', ['ui.router'])
+        .module('trackerApp', [
+            'ui.router',
+            'trackerApp.personal'
+        ])
         .config(config)
         .controller('UsersCtrl', UsersCtrl)
         .filter("formatCurrency", formatCurrency);
@@ -35,6 +38,7 @@
 // @ngInject
     function UsersCtrl($scope, $http) {
         var s = this;
+        s.title = "Заголовок";
         $http.get('db/users.json').success(function (data) {
             s.users = data;
         });

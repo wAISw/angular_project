@@ -56,13 +56,15 @@ gulp.task('js', function(){
         "bower_components/angular/angular.min.js",
         "bower_components/jquery/dist/jquery.min.js",
         "bower_components/bootstrap/dist/js/bootstrap.min.js",
-        "bower_components/angular-ui-router/release/angular-ui-router.min.js"
+        "bower_components/angular-ui-router/release/angular-ui-router.min.js",
+        "bower_components/angular-animate/angular-animate.min.js"
         ])
         .pipe(concat('lib.min.js'))
         .pipe(gulp.dest('app/prod/js'));
 
     gulp.src([
-        "app/dev/js/*.js"
+        "app/dev/js/*.js",
+        'app/dev/personal/*.js'
     ])
         .pipe(ngAnnotate())
         .pipe(concat('main.min.js'))

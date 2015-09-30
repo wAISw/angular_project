@@ -16,6 +16,16 @@
                 <li ui-sref-active="active"><a ui-sref="About">About</a></li>
                 <li ui-sref-active="active"><a ui-sref="Contact">Contact</a></li>
                 <li ui-sref-active="active"><a ui-sref="Users">Users</a></li>
+                <li ui-sref-active="active" class="dropdown">
+                    <a ui-sref="Personal" class="dropdown-toggle" data-toggle="dropdown">Личный кабинет<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="Personal">Главная</a></li>
+                        <li><a ui-sref="Complex">Мои комплексы</a></li>
+                        <li><a ui-sref="Workout">Тренировка</a></li>
+                        <li><a ui-sref="Statistics">Статистика</a></li>
+                        <li><a ui-sref="Settings">Настройки</a></li>
+                    </ul>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
