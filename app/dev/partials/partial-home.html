@@ -2,3 +2,10 @@
     <h1>{{ 'home' }}</h1>
 </div>
 <p>home</p>
+<div ng-controller="UsersCtrl as users">
+    <ul ng-repeat="user in users.users">
+        <li>
+            <p>{{user.name}} - {{user.balance | formatCurrency}}</p>
+        </li>
+    </ul>
+</div>

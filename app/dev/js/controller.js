@@ -4,7 +4,8 @@
     angular
         .module('trackerApp', [
             'ui.router',
-            'trackerApp.personal'
+            'trackerApp.personal',
+            'ngAnimate'
         ])
         .config(config)
         .controller('UsersCtrl', UsersCtrl)

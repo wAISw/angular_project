@@ -4,10 +4,12 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
+
 #footer {
     position: absolute;
     bottom: 0;
@@ -24,6 +26,7 @@ body {
 body > .container {
     padding: 60px 15px 0;
 }
+
 .container .text-muted {
     margin: 20px 0;
 }
@@ -35,4 +38,36 @@ body > .container {
 
 code {
     font-size: 80%;
+}
+
+/* Have to set height explicity on ui-view
+to prevent collapsing during animation*/
+.ui-view-container {
+    position: relative;
+    margin-top: 50px;
+}
+
+[ui-view].ng-enter, [ui-view].ng-leave {
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all .5s ease-in-out;
+}
+
+[ui-view].ng-enter {
+    opacity: 0;
+    transform:translate3d(0, 50px, 0);
+}
+
+[ui-view].ng-enter-active {
+    opacity: 1;
+    transform:translate3d(0, 0, 0);
+}
+
+[ui-view].ng-leave {
+    opacity: 1;
+}
+
+[ui-view].ng-leave-active {
+    opacity: 0;
 }
