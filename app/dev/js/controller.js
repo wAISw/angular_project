@@ -38,7 +38,7 @@
 // @ngInject
     function UsersCtrl($scope, $http) {
         var s = this;
-        s.title = "Заголовок";
+        s.title = "Пользователи";
         $http.get('db/users.json').success(function (data) {
             s.users = data;
         });
