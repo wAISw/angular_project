@@ -3,6 +3,9 @@
 </div>
 <p>Балланс пользователей</p>
 <div ng-controller="UsersCtrl as users">
+<pre>
+    {{users|json}}
+</pre>
     <ul ng-repeat="user in users.users">
         <li>
             <p>{{user.name}} - {{user.balance | formatCurrency}}</p>
