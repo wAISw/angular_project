@@ -2,9 +2,13 @@
     "use strict";
 
     angular
-        .module('trackerApp.personal', ['ui.router'])
+        .module('trackerApp.personal', [
+            'ui.router',
+            'trackerApp.fire'
+        ])
         .config(PersonalConfig)
         .controller('PersonalIndexCtrl', PersonalIndexCtrl)
+        .factory('UserRepository', UserRepositoryFactory)
         .controller('PersonalComplexCtrl', PersonalComplexCtrl)
         .controller('PersonalSettingsCtrl', PersonalSettingsCtrl)
         .controller('PersonalStatisticsCtrl', PersonalStatisticsCtrl)
@@ -46,9 +50,39 @@
     }
 
     // @ngInject
-    function PersonalIndexCtrl() {
+    function UserRepositoryFactory(dbc, $firebaseArray) {
+        var o = {};
+        o.getAllUsers = function(){
+            var ref = dbc.getRef();
+            return $firebaseArray(ref.child('users'));
+        };
+        o.addNewUser = function (_user) {
+            if(_user && _user.name && _user.name.length>0){
+                var ref = dbc.getRef();
+                var userList = $firebaseArray(ref.child('users'));
+                return userList.$add(_user);
+            }
+            return false;
+        };
+        return o;
+    }
+
+    // @ngInject
+    function PersonalIndexCtrl(UserRepository) {
         var s = this;
         s.title = "Личный кабинет";
+        var users = UserRepository.getAllUsers();
+        users.$loaded(function (_usersList) {
+            s.users = _usersList;
+        });
+
+        users.$watch(function (_usersList) {
+            users.$loaded().then(function (_usersList) {
+                s.users = _usersList;
+            });
+        });
+
+
     }
 
     // @ngInject
@@ -76,35 +110,35 @@
     }
 })();
 
-var UserRepository = function () {
-    // private
-    var repository;
-
-    function createRepository() {
-        repository = {
-            count: 2
-        };
-        return repository;
-    }
-
-    return {
-        getInstance: function () {
-            if (!repository) {
-                console.log("create");
-                repository = createRepository();
-            }
-            return repository;
-        }
-    };
-};
-
-var repository = new UserRepository();
-var rep1 = repository.getInstance();
-var rep2 = repository.getInstance();
-console.log(rep1.count, rep2.count);
-
-rep1.count = 1;
-console.log(rep1.count, rep2.count);
-
-rep2.count = 3;
-console.log(rep1.count, rep2.count);
+//var UserRepository = function (dbc) {
+//    // private
+//    var repository;
+//
+//    function createRepository() {
+//        repository = {
+//            count: 2
+//        };
+//        return repository;
+//    }
+//
+//    return {
+//        getInstance: function () {
+//            if (!repository) {
+//                console.log("create");
+//                repository = createRepository();
+//            }
+//            return repository;
+//        }
+//    };
+//};
+//
+//var repository = new UserRepository();
+//var rep1 = repository.getInstance();
+//var rep2 = repository.getInstance();
+//console.log(rep1.count, rep2.count);
+//
+//rep1.count = 1;
+//console.log(rep1.count, rep2.count);
+//
+//rep2.count = 3;
+//console.log(rep1.count, rep2.count);

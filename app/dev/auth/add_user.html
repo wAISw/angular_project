@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="page-header ng-scope">
+        <h1>Добавление пользователей в таблицу users</h1>
+    </div>
+    <div class="row">
+        <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+        <form name="newUserForm" class="form-inline" novalidate ng-submit="ac.addNewUser()">
+            <div class="form-group"
+                 ng-class="{'has-error':newUserForm.name.$invalid && newUserForm.name.$dirty}">
+                <label for="newUserName" class="sr-only">Имя</label>
+                <input  type="text"
+                        class="form-control"
+                        id="newUserName"
+                        name="name"
+                        placeholder="Имя"
+                        ng-model="ac.newUser.name"
+                        required>
+            </div>
+            <div class="form-group"
+                 ng-class="{'has-error':newUserForm.email.$invalid && newUserForm.email.$dirty}">
+                <label for="email" class="sr-only" >Email</label>
+                <input type="email"
+                       class="form-control"
+                       id="email"
+                       name="email"
+                       placeholder="Email"
+                       ng-model="ac.newUser.email"
+                       required>
+            </div>
+            <button type="submit"
+                    class="btn btn-default"
+                    ng-disabled="newUserForm.$invalid">Добавить пользователя</button>
+        </form>
+    </div>
+</div>

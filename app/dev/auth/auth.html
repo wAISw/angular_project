@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="page-header ng-scope">
+        <h1>Авторизация</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-hide="ac.getAuth!=null">
+            <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+            <form name="authForm" class="form" novalidate ng-submit="ac.authUser()">
+                <div class="form-group"
+                     ng-class="{'has-error':authForm.email.$invalid && authForm.email.$dirty}">
+                    <label for="newUserEmail" class="sr-only">Имя</label>
+                    <input type="email"
+                           class="form-control"
+                           id="newUserEmail"
+                           name="email"
+                           placeholder="Email"
+                           ng-model="ac.authUserInf.email"
+                           required>
+                </div>
+                <div class="form-group"
+                     ng-class="{'has-error':authForm.password.$invalid
+                                && authForm.password.$dirty}">
+                    <label for="password" class="sr-only">Пароль</label>
+                    <input type="password"
+                           class="form-control"
+                           id="password"
+                           name="password"
+                           placeholder="Пароль"
+                           ng-model="ac.authUserInf.password"
+                           required>
+                </div>
+                <button type="submit"
+                        class="btn btn-info"
+                        ng-disabled="authForm.$invalid">Зарегистрироваться
+                </button>
+            </form>
+        </div>
+        <div class="col-sm-6 col-md-4" ng-hide="ac.getAuth==null">
+            <button type="button"
+                    class="btn btn-default"
+                    ng-click="ac.logOut()">Выйти
+            </button>
+        </div>
+    </div>
+</div>

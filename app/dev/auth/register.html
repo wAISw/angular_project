@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="page-header ng-scope">
+        <h1>Регистрация</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+            <form name="registerForm" class="form" novalidate ng-submit="ac.registerUser()">
+                <div class="form-group"
+                     ng-class="{'has-error':registerForm.email.$invalid && registerForm.email.$dirty}">
+                    <label for="newUserEmail" class="sr-only">Email</label>
+                    <input type="email"
+                           class="form-control"
+                           id="newUserEmail"
+                           name="email"
+                           placeholder="Email"
+                           ng-model="ac.createUser.email"
+                           required>
+                </div>
+                <div class="form-group"
+                     ng-class="{'has-error':registerForm.password.$touched
+                                && registerForm.password.$modelValue!=registerForm.pass_confirm.$modelValue}">
+                    <label for="password" class="sr-only">Пароль</label>
+                    <input type="password"
+                           class="form-control"
+                           id="password"
+                           name="password"
+                           placeholder="Пароль"
+                           ng-model="ac.createUser.password"
+                           required>
+                </div>
+                <div class="form-group"
+                     ng-class="{'has-error':registerForm.pass_confirm.$touched
+                                && registerForm.password.$modelValue!=registerForm.pass_confirm.$modelValue}">
+                    <label for="pass_confirm" class="sr-only">Пароль</label>
+                    <input type="password"
+                           class="form-control"
+                           id="pass_confirm"
+                           name="pass_confirm"
+                           placeholder="Подтвердите пароль"
+                           ng-model="ac.createUser.pass_confirm"
+                           required>
+                </div>
+                <button type="submit"
+                        class="btn btn-info"
+                        ng-disabled="registerForm.$invalid">Зарегистрироваться
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

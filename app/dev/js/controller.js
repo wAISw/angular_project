@@ -4,10 +4,13 @@
     angular
         .module('trackerApp', [
             'ui.router',
+            'trackerApp.fire',
             'trackerApp.personal',
-            'ngAnimate'
+            'trackerApp.auth',
+            'ngAnimate',
+            'ui.bootstrap'
         ])
-        .constant('FIRE_BASE', 'http')
+        .constant('FIREBASE_URL', 'https://luminous-fire-9968.firebaseio.com/')
         .value('configOptions', {
             lang: 'ru',
             timezone: '+3'
@@ -71,7 +74,7 @@
     }
 
 // @ngInject
-    function UsersProvider(){
+    function UsersProvider() {
         var privateVal = "private";
         return {
             setPrivate: function (_privateVal) {
@@ -87,6 +90,7 @@
             }
         };
     }
+
 // @ngInject
     function UsersFactory() {
         var o = {};
@@ -107,11 +111,20 @@
     }
 
 // @ngInject
-    function Run(configOptions, UsersFactory, UsersService) {
-        console.log(configOptions);
-        UsersFactory.setPrivate('hello');
-        console.log(UsersService.getPrivate());
-        UsersService.setPrivate("opa")
+    function Run(configOptions, UsersFactory, UsersService, $rootScope) {
+        //    console.log(configOptions);
+        //    UsersFactory.setPrivate('hello');
+        //    console.log(UsersService.getPrivate());
+        //    UsersService.setPrivate("opa")
+        $rootScope.alerts = [];
+        $rootScope.addAlert = function(_type,_msg) {
+            _type = _type||"info";
+            $rootScope.alerts.push({type:_type,msg: _msg});
+        };
+
+        $rootScope.closeAlert = function(index) {
+            $rootScope.alerts.splice(index, 1);
+        };
     }
 
 // @ngInject
