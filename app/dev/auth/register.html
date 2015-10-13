@@ -7,6 +7,17 @@
             <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
             <form name="registerForm" class="form" novalidate ng-submit="ac.registerUser()">
                 <div class="form-group"
+                     ng-class="{'has-error':registerForm.fullName.$invalid && registerForm.fullName.$dirty}">
+                    <label for="newUserFullName" class="sr-only">Ф.И.О.</label>
+                    <input type="text"
+                           class="form-control"
+                           id="newUserFullName"
+                           name="fullName"
+                           placeholder="Ф.И.О."
+                           ng-model="ac.createUser.fullName"
+                           required>
+                </div>
+                 <div class="form-group"
                      ng-class="{'has-error':registerForm.email.$invalid && registerForm.email.$dirty}">
                     <label for="newUserEmail" class="sr-only">Email</label>
                     <input type="email"
@@ -45,6 +56,12 @@
                         class="btn btn-info"
                         ng-disabled="registerForm.$invalid">Зарегистрироваться
                 </button>
+                <a class="btn btn-info" ng-click="ac.fbRegister()">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                 <a class="btn btn-info" ng-click="ac.googleRegister()">
+                    <i class="fa fa-google"></i>
+                </a>
             </form>
         </div>
     </div>

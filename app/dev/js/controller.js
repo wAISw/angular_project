@@ -2,12 +2,13 @@
     "use strict";
 
     angular
-        .module('trackerApp', [
+        .module('fitApp', [
             'ui.router',
-            'trackerApp.fire',
-            'trackerApp.personal',
-            'trackerApp.auth',
+            'fitApp.fire',
+            'fitApp.personal',
+            'fitApp.auth',
             'ngAnimate',
+            'fitApp.navbar',
             'ui.bootstrap'
         ])
         .constant('FIREBASE_URL', 'https://luminous-fire-9968.firebaseio.com/')
@@ -17,11 +18,18 @@
         })
         .config(config)
         .run(Run)
-        .controller('UsersCtrl', UsersCtrl)
         .factory('UsersFactory', UsersFactory)
         .service('UsersService', UsersService)
         .provider('Users', UsersProvider)
-        .filter("formatCurrency", formatCurrency);
+        .filter("formatCurrency", formatCurrency)
+        .controller('UsersCtrl', UsersCtrl)
+        .controller('aboutCtrl', aboutCtrl);
+
+    // @ngInject
+    function aboutCtrl() {
+        var s = this;
+    }
+
 
     /* Controllers */
 
@@ -31,7 +39,9 @@
         $stateProvider
             .state('About', {
                 url: '/about',
-                templateUrl: 'partials/partial-about.html'
+                templateUrl: 'partials/partial-about.html',
+                controller: 'aboutCtrl',
+                controllerAs: 'ac'
             })
             .state('Users', {
                 url: '/users',
@@ -45,9 +55,6 @@
                 url: '/contact',
                 templateUrl: 'partials/partial-contacts.html'
             });
-        console.log(UsersProvider);
-        UsersProvider.setPrivate('Not Almost Private');
-        console.log(UsersProvider);
 
         $provide.decorator('UsersFactory', ['$delegate', function ($delegate) {
             $delegate.helloPrivate = function () {
@@ -112,17 +119,13 @@
 
 // @ngInject
     function Run(configOptions, UsersFactory, UsersService, $rootScope) {
-        //    console.log(configOptions);
-        //    UsersFactory.setPrivate('hello');
-        //    console.log(UsersService.getPrivate());
-        //    UsersService.setPrivate("opa")
         $rootScope.alerts = [];
-        $rootScope.addAlert = function(_type,_msg) {
-            _type = _type||"info";
-            $rootScope.alerts.push({type:_type,msg: _msg});
+        $rootScope.addAlert = function (_type, _msg) {
+            _type = _type || "info";
+            $rootScope.alerts.push({type: _type, msg: _msg});
         };
 
-        $rootScope.closeAlert = function(index) {
+        $rootScope.closeAlert = function (index) {
             $rootScope.alerts.splice(index, 1);
         };
     }

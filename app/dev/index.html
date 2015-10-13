@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="ru" ng-app="trackerApp">
+<html lang="ru" ng-app="fitApp">
 <head>
     <meta charset="utf-8">
     <!--<base href="/app/prod/">-->
@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- libs_css:CSS -->
     <!-- endinject-->
@@ -25,8 +26,8 @@
 
 <body>
 
+<div ng-include="'components/navbar/navbar.html'"></div>
 
-<div ng-include="'templates/header.html'"></div>
 <!-- Begin page content -->
 <div class="ui-view-container">
     <div class="container" ui-view>

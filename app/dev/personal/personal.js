@@ -2,9 +2,11 @@
     "use strict";
 
     angular
-        .module('trackerApp.personal', [
+        .module('fitApp.personal', [
             'ui.router',
-            'trackerApp.fire'
+            'fitApp.fire',
+            'fitApp.navbar',
+            'fitApp.auth'
         ])
         .config(PersonalConfig)
         .controller('PersonalIndexCtrl', PersonalIndexCtrl)
@@ -18,46 +20,46 @@
     function PersonalConfig($stateProvider, $urlRouterProvider, $locationProvider) {
         $stateProvider
             .state('Personal', {
-                url: '/personal',
+                url: '/personal/:id',
                 templateUrl: 'personal/partial-index.html',
                 controller: 'PersonalIndexCtrl',
-                controllerAs: '_pic_'
+                controllerAs: 'pic'
             })
             .state('Complex', {
                 url: '/personal/complex',
                 templateUrl: 'personal/partial-complex.html',
                 controller: 'PersonalComplexCtrl',
-                controllerAs: '_pcc_'
+                controllerAs: 'pcc'
             })
             .state('Settings', {
                 url: '/personal/settings',
                 templateUrl: 'personal/partial-settings.html',
                 controller: 'PersonalSettingsCtrl',
-                controllerAs: '_psc_'
+                controllerAs: 'psc'
             })
             .state('Statistics', {
                 url: '/personal/statistics',
                 templateUrl: 'personal/partial-statistics.html',
                 controller: 'PersonalStatisticsCtrl',
-                controllerAs: '_pstatc_'
+                controllerAs: 'pstatc'
             })
             .state('Workout', {
                 url: '/personal/workout',
                 templateUrl: 'personal/partial-workout.html',
                 controller: 'PersonalWorkoutCtrl',
-                controllerAs: '_pwc_'
+                controllerAs: 'pwc'
             });
     }
 
     // @ngInject
     function UserRepositoryFactory(dbc, $firebaseArray) {
         var o = {};
-        o.getAllUsers = function(){
+        o.getAllUsers = function () {
             var ref = dbc.getRef();
             return $firebaseArray(ref.child('users'));
         };
         o.addNewUser = function (_user) {
-            if(_user && _user.name && _user.name.length>0){
+            if (_user && _user.name && _user.name.length > 0) {
                 var ref = dbc.getRef();
                 var userList = $firebaseArray(ref.child('users'));
                 return userList.$add(_user);
@@ -68,8 +70,9 @@
     }
 
     // @ngInject
-    function PersonalIndexCtrl(UserRepository) {
+    function PersonalIndexCtrl($rootScope, $state, UserRepository) {
         var s = this;
+
         s.title = "Личный кабинет";
         var users = UserRepository.getAllUsers();
         users.$loaded(function (_usersList) {

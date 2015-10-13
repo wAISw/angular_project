@@ -1,11 +1,9 @@
-<div class="page-header">
-    <h1>{{ 'home' }}</h1>
-</div>
-<p>home</p>
-<div ng-controller="UsersCtrl as users">
-    <ul ng-repeat="user in users.users">
-        <li>
-            <p>{{user.name}} - {{user.balance | formatCurrency}}</p>
-        </li>
-    </ul>
+<div class="jumbotron">
+    <h1>Твой личный Фитнес трекер</h1>
+    <p>Данный сайт позволит тебе эффктивно тренироваться в любой точке земного шара.
+        Все что тебе необходимо, это интернет и желание.
+    </p>
+    <p>
+        <a class="btn btn-lg btn-primary" ui-sref="Register" role="button">Скорее регистрируйся »</a>
+    </p>
 </div>

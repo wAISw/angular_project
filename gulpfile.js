@@ -24,10 +24,10 @@ gulp.task('connect', function () {
 
 // watch
 gulp.task('watch', function () {
-    gulp.watch('app/dev/*/*.css', ['css']);
-    gulp.watch('app/dev/*/*.json', ['json']);
-    gulp.watch('app/dev/*/*.js', ['js']);
-    gulp.watch('app/dev/*/*.html', ['html', 'inject']);
+    gulp.watch('app/dev/**/**/**/*.css', ['css']);
+    gulp.watch('app/dev/**/**/**/*.json', ['json']);
+    gulp.watch('app/dev/**/**/**/*.js', ['js']);
+    gulp.watch('app/dev/**/**/**/*.html', ['html', 'inject']);
     gulp.watch('app/dev/index.html', ['inject']);
 });
 
@@ -70,7 +70,7 @@ gulp.task('js', function () {
     gulp.src([
             "app/dev/js/*.js",
             'app/dev/personal/*.js',
-            'app/dev/components/*.js',
+            'app/dev/components/**/*.js',
             'app/dev/auth/*.js'
         ])
         .pipe(ngAnnotate())
@@ -104,7 +104,7 @@ gulp.task('inject', ['html', 'css'], function () {
 
 // html
 gulp.task('html', ['js'], function () {
-    gulp.src('app/dev/**/*.html')
+    gulp.src('app/dev/**/**/**/*.html')
         .pipe(gulp.dest('app/prod/'))
         .pipe(connect.reload());
 });

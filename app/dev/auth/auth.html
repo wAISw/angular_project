@@ -3,7 +3,7 @@
         <h1>Авторизация</h1>
     </div>
     <div class="row">
-        <div class="col-sm-6 col-md-4" ng-hide="ac.getAuth!=null">
+        <div ng-if="!isAuth" class="col-sm-6 col-md-4">
             <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
             <form name="authForm" class="form" novalidate ng-submit="ac.authUser()">
                 <div class="form-group"
@@ -31,15 +31,16 @@
                 </div>
                 <button type="submit"
                         class="btn btn-info"
-                        ng-disabled="authForm.$invalid">Зарегистрироваться
+                        ng-disabled="authForm.$invalid">Войти
                 </button>
+                <a class="btn btn-info" ng-click="ac.fbAuth()">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                 <a class="btn btn-info" ng-click="ac.googleAuth()">
+                    <i class="fa fa-google"></i>
+                </a>
+                 <a ui-sref="ResetPassword" class="btn btn-warning">Забыл пароль</a>
             </form>
-        </div>
-        <div class="col-sm-6 col-md-4" ng-hide="ac.getAuth==null">
-            <button type="button"
-                    class="btn btn-default"
-                    ng-click="ac.logOut()">Выйти
-            </button>
         </div>
     </div>
 </div>
