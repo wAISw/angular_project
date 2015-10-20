@@ -9,7 +9,8 @@
             'fitApp.auth',
             'ngAnimate',
             'fitApp.navbar',
-            'ui.bootstrap'
+            'ui.bootstrap',
+            'mainParallax'
         ])
         .constant('FIREBASE_URL', 'https://luminous-fire-9968.firebaseio.com/')
         .value('configOptions', {

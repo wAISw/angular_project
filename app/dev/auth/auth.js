@@ -113,7 +113,7 @@
                     $rootScope.isAuth = authData;
                     $rootScope.userInf = Authentication.getUser(authData);
                     $state.go("Personal", {id: authData.uid});
-                 }).catch(function (error) {
+                }).catch(function (error) {
                     $rootScope.isAuth = false;
                     Authentication.deleteUserInf();
                     $rootScope.closeAlert();
@@ -233,7 +233,7 @@
                 $rootScope.closeAlert();
                 $state.go("Personal", {id: $rootScope.userInf.uid});
             });
-        }
+        };
     }
 
     // @ngInject
@@ -244,6 +244,9 @@
         var usersRef = ref.child('users');
         o.getAuth = function () {
             return auth.$getAuth();
+        };
+        o.requireAuth = function () {
+            return auth.$requireAuth();
         };
         o.deleteUserInf = function () {
             $rootScope.isAuth = null;
@@ -331,17 +334,7 @@
                     };
                 });
         };
-        o.googleAuth = function () {
-            return auth.$authWithOAuthPopup("google").then(function (authData) {
-                $rootScope.isAuth = authData;
-                $rootScope.userInf = {
-                    fullName: authData.google.displayName,
-                    uid: authData.uid,
-                    email: null
-                };
-            });
-        };
-        // Проверим авторизован ли пользователь
+        //// Проверим авторизован ли пользователь
         $rootScope.isAuth = o.getAuth();
 
         if ($rootScope.isAuth) {

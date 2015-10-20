@@ -1,0 +1,4092 @@
+{
+  "exercises": [
+    {
+      "name": "Прыжки ноги вместе, ноги врозь",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Отжимания в наклоне",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим в тренажере с отрицательным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга нижнего блока между ног",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Ходьба с выпадами со штангой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим на верхнем блоке стоя",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Прыжки на подставку",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Подъем штанги на грудь и жим",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Обратная гиперэкстензия",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Вертикальный жим ногами",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Прогулка фермера",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания Андерсона",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Бурпи",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Плавание на спине",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Кроль (вольный стиль)",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Баттерфляй",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Брасс",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Боковые прыжки через платформу",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Сгибание ног на фитболе",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Прыжки через скакалку",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Скручивания с отягощением",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Упражнение «ослик»",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим сидя в тренажере",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибания на бицепс в тренажере",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания на одной руке",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Плиометрические отжимания с опорами",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Планка",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс на наклонной скамье хватом «молоток»",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Упражнение «дровосек»",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разведение рук в тренажере (обратная бабочка)",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим в тренажере с положительным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим Свенда",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Становая тяга сумо",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Плиометрические отжимания",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Разведение рук в стороны на нижнем блоке",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга верхнего блока широким хватом",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем на носки на одной ноге",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Бег по пересеченной местности",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Степ-тренажер",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Тренажер, имитирующий ходьбу по лестнице",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Катание на роликовых коньках",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Бег на беговой дорожке",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Гребной тренажер",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Езда на лежачем велотренажере",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Ходьба на беговой дорожке",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Эллиптический тренажер",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Езда на велотренажере",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Езда на велосипеде",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Кардио"
+    },
+    {
+      "name": "Отжимания от скамьи с весом",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка трицепсов стоя",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Разгибание на трицепс на верхнем блоке с V-рукоятью",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание на трицепс на верхнем блоке с канатной рукоятью",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание на трицепс на верхнем блоке",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка трицепсов",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Отведение гантелей назад в наклоне",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим Тейта",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка трицепсов с использованием полотенца",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим со штангой стоя",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим одной рукой стоя",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание одной рукой на трицепс на нижнем блоке",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим с гантелей стоя",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание двумя руками на трицепс в наклоне",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание одной рукой на трицепс в наклоне",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим лежа узким хватом в машине Смита",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим сидя",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание двумя руками на трицепс сидя в наклоне",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание одной руки на трицепс сидя в наклоне",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Обратный жим лежа на скамье",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание на трицепс на верхнем блоке обратным хватом",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги в силовой раме с эспандерами",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания с узким упором",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим со стоек в положении лежа",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка трицепса",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Разгибание гантели супинированным хватом",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание гантели пронированным хватом",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим одной рукой в положении лежа",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим лежа",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим лежа с гантелями",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги ко лбу узким хватом",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание штанги узким хватом в положении лежа",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим на нижнем блоке",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание рук на блоке из-за головы стоя на коленях",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "JM-жим",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим со штангой на наклонной скамье",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим лежа на полу используя цепи",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим лежа на полу",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание гантели из-за головы",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания в тренажере",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим лежа на скамье используя цепи",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги лежа на скамье используя бруски",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги лежа на скамье используя цепи",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги лежа на скамье",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания Зерхера",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой с широкой постановкой стоп",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания с отягощением",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сисси-приседы",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка с выпадом",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка квадрицепсов с использованием платформы",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Приседания с эспандером",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Эспандер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания с цепями",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания с эспандером",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Толчок штанги от груди с приседом",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Толчок с выпадом",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Взятие штанги на грудь с выпадом",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Быстрые приседания со штангой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывок штанги с блоков",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Частичный рывок",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывок штанги",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания в машине Смита на одной ноге",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания в машине Смита",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка с приседанием",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Приседания в силовой раме со штангой в висе",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания в силовой раме",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Махи назад",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка квадрицепсов с помощью валика",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка квадрицепсов",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Рывок штанги с подставок",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Толчок штанги от груди",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на грудь (с подставок)",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания плие с гантелей",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой над головой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Становая тяга со штангой в одной руке",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания с гирей над головой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой на одной ноге",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка лежа на полу",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц бедра лежа на скамье",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц бедра лежа на боку",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Олимпийские приседания",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой с узкой постановкой стоп",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим ногами с узкой постановкой стоп",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Гакк-приседания с узкой постановкой стоп",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка альпиниста",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Приседания в тренажере в положении лежа",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка квадрицепсов с отгибанием назад",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Жим ногами",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Выпрямление ног в тренажере",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка сгибателей бедра стоя на колене",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Приседания с гирей на одной ноге",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Толчок штанги от груди (частичный)",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания Джефферсона",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка квадрицепсов",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка сгибателей бедра и квадрицепсов",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Рывок из-за головы",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на грудь (с уровня колен)",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на грудь (с уровня бедер)",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Гакк-приседания",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания с гирей (гоблет)",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Глубокие приседания с гирями",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Глубокие приседания со штангой на груди",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой на груди используя скамью",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой на груди",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Прыжки",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Прыжки с приседаниями",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания Франкенштейна (приседания с вытянутыми руками)",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Заход на скамью с гантелями",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания с гантелями используя скамью",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания с гантелями",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Выпады назад с гантелями (обратные выпады)",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Выпады с гантелями",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывковая тяга",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на грудь используя блоки (подставки)",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Становая тяга",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приведения ноги на нижнем блоке",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой, используя ящик и цепи",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой, используя ящик и эспандеры",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой, используя ящик",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Заход на скамью со штангой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой, используя скамью",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Боковые выпады со штангой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Выпады со штангой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания со штангой за спиной",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Глубокие приседания со штангой",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка квадрицепсов",
+      "targeted_muscles": "Квадрицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц спины",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Тяга гирь в наклоне обеими руками",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц спины сидя на стуле",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Тяга штанги в наклоне в машине Смита",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга нижнего блока одной рукой",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга на нижнем блоке",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка поясничного треугольника",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Тяга штанги в наклоне обратным хватом",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гири одной рукой",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга гантели в наклоне",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивания на одной руке",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивания смешанным хватом",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц спины",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Шраги с гантелями на наклонной скамье",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга Т-штанги в положении лежа",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем изогнутой штанги лежа на скамье",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга на наклонной скамье",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга гантелей в наклоне нейтральным хватом",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга гантелей в наклоне",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга Т-штанги обеими руками в наклоне",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга Т-штанги одной рукой в наклоне",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга штанги в наклоне",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга гирь в упоре лежа",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Поочередный подъем гирь назад",
+      "targeted_muscles": "Средняя часть спины",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Гиперэкстензия на фитболе",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка супермена",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Упражнение «Доброе утро» с прямыми ногами",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц спины в положении стоя",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Упражнение «доброе утро» в положении сидя",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Становая тяга в силовой раме с эспандерами",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга в силовой раме",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга в силовой раме с эспандером",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц нижней части спины в положении лежа («пирамида»)",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц нижней части спины в положении лежа («мост»)",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц нижней части спины",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Гиперэкстензия с напарником",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Гиперэкстензия",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка в положении лежа",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка с фитболом",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Становая тяга на платформе или подставке",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Становая тяга с цепями",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Становая тяга с эспандером",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка в положении сидя",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка с выпадом и поворотом",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "«Кошачья» растяжка",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Становая тяга со штангой",
+      "targeted_muscles": "Нижняя часть спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тройная растяжка",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Широкая становая тяга",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц обхватывая бедра в положении сидя",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц в положении сидя",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Становая тяга с гантелями",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Становая тяга со штангой с прямыми ногами",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц задней поверхности бедра с помощью наклона вперед",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Сгибание ног в тренажере стоя",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц голени и задней поверхности бедра в положении стоя",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Прыжки с выпадами",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Рывок с выпадом",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывковая тяга",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывковая становая тяга",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Становая тяга в машине Смита с прямыми ногами",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание ног в тренажере сидя",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка икр и мышц задней поверхности бедра сидя на полу",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц задней поверхности бедра сидя на полу",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц задней поверхности бедра в положении стоя",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Румынская становая тяга (вариант 2)",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Румынская становая тяга",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Мощный рывок штанги над головой",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Взятие гири на грудь двумя руками",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гири в ладони",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Махи гирей одной рукой",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гири к плечу",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывок штанги над головой",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание ног в тренажере лежа",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц задней поверхности бедра в положении лежа",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Становая тяга с гирей стоя на одной ноге",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гири на грудь (гиря на уровне бедер)",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гири на грудь",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжение внутренних мышц бедра",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Упражнение «Доброе утро» (штанга в висе)",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывок штанги (штанга на уровне колен)",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывок штанги (штанга на уровне бедер)",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжение мышц задней поверхности бедра",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Упражнение «Доброе утро» с упоров",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Силовая рама",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Упражнение «Доброе утро»",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем туловища в тренажере",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ноги перед собой",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъем штанги на грудь",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка мышц задней поверхности бедра сидя на стуле",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка мышц задней поверхности бедра в положении лежа (90/90)",
+      "targeted_muscles": "Бедра",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Махи ногой на нижнем блоке",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка ягодичных мышц (колено к груди)",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Махи ногой",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Приседания стоя на коленях",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Прыжок со штангой из упора сидя",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка ягодичных мышц",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Махи назад согнутой ногой",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Махи ногами лежа на скамье",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ягодиц («Мост»)",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ягодиц со штангой, опираясь на скамью",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ягодиц со штангой",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка ягодичных мышц в положении лежа",
+      "targeted_muscles": "Ягодицы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Сгибания запястий за спиной со штангой в положении стоя",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Удерживание веса стоя",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий на нижнем блоке сидя на скамье",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий со штангой сидя на скамье (ладонями вниз)",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий со штангой сидя на скамье (ладонями вверх)",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястья сидя на скамье супинированным хватом",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястья сидя на скамье пронированным хватом",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий сидя на скамье с гантелями ладонями вверх",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий сидя на скамье с гантелями ладонями вниз",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Удерживание веса",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий на скамье с гантелями ладонями вверх",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий на скамье со штангой ладонями вверх",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий на скамье со штангой ладонями вниз",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий на скамье с гантелями ладонями вниз",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка предплечий стоя на коленях",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Сгибание запястий с супинацией в положении лежа",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий с пронацией в положении лежа",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание запястий на нижнем блоке",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем и удержание гири перед собой",
+      "targeted_muscles": "Предплечья",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка икроножных мышц в положении стоя",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъем на носки с гантелями с помощью подставки",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем на носки в тренажере стоя",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем на носки со штангой",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем на пятки в машине Смита",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растягивание икроножных мышц в положении сидя",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъем на носки в тренажере сидя",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Попеременный подъем на пятки и на носки со штангой",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Круговые движения коленями",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъем на носки с гантелей сидя",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем носков в тренажере для жима ногами",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем на носки со штангой сидя",
+      "targeted_muscles": "Икры",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибания Зоттмана на скамье Скотта",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибания Зоттмана (развороты предплечий с гантелями)",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на бицепс широким хватом",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс на скамье Скотта",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание руки на бицепс стоя рядом с наклонной скамьей",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание руки на бицепс на нижнем блоке стоя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс через стороны стоя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс пронированным хватом стоя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка бицепсов стоя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Сгибания рук на бицепс на нижнем блоке стоя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс с наклоном вперед",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс через стороны сидя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс сидя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на бицепс узким хватом в положении сидя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс с диском",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс на нижнем блоке обратным хватом",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем EZ-штанги на бицепс на скамье Скотта обратным хватом",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на бицепс обратным хватом",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс хватом «молоток» на скамье Скотта",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем EZ-штанги на бицепс на скамье Скотта",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс над головой на верхнем блоке",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание одной рукой на бицепс на скамье Скотта",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс-машине",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс с гантелями лежа",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс со штангой в положении лежа",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс на верхнем блоке узким хватом",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс на блоке в положении лежа",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Попеременный подъем гантелей на бицепс на наклонной скамье",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс на верхнем блоке",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс хватом «молоток»",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук с гантелями на бицепс на наклонной скамье",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем EZ-штанги на бицепс стоя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс в наклоне",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей на бицепс стоя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Поочередный подъем гантелей на бицепс",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс со штангой, с отведением локтей назад",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс перед собой с гантелями хватом «молоток»",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Концентрированные сгибания на бицепс сидя",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на бицепс узким хватом",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем EZ-штанги на бицепс стоя узким хватом",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс на скамье Скотта на нижнем блоке",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сгибание рук на бицепс на нижнем блоке с канатной рукоятью",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка брахиалиса",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъем штанги на бицепс на наклонной скамье",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на бицепс",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Поочередное сгибание рук на бицепс сидя на наклонной скамье",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Попеременный подъем гантелей на бицепс хватом «молоток»",
+      "targeted_muscles": "Бицепс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка приводящих мышц бедра лежа на боку",
+      "targeted_muscles": "Аддукторы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Сведение ног в тренажере",
+      "targeted_muscles": "Аддукторы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отведение ноги в сторону",
+      "targeted_muscles": "Аддукторы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка внутренних мышц бедер",
+      "targeted_muscles": "Аддукторы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка для отводящих мышц бедра",
+      "targeted_muscles": "Аддукторы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Разведение ног в тренажере",
+      "targeted_muscles": "Абдукторы",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка отводящих мышц бедра",
+      "targeted_muscles": "Абдукторы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъем туловища на наклонной скамье с отягощением",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Эспандер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Наклон в сторону на мяче с отягощением",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания с поднятыми ногами",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Повороты с фитболом",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Касания стоп",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растягивание мышц пресса стоя",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъем туловища из положения лежа",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "«Складной нож» в положении на боку",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Упражнение для косых мышц живота «Мост»",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растягивание мышц пресса сидя на полу",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Удары ногами сидя на скамье",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивания ног к груди сидя на горизонтальной скамье",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Повороты со штангой сидя на скамье",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "«Ножницы»",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Русский твист (повороты туловища)",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Обратные скручивания в положении лежа",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим в подъеме туловища из положения лежа",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Повороты с блином",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растягивание мышц брюшного пресса",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Боковые скручивания",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Косые скручивания",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Обратное скручивание лежа на животе",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъем ног в положении лежа",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ног в тренажере с упорами для локтей",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "«Мельница» с одной гирей",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "W — вариант восьмерок с гирей",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "«Восьмерки» с гирей",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем туловища из положения лежа по методу Янда",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "«Складной нож» в положении лежа на спине",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ног к перекладине",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ног в висе на перекладине",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивание на перекладине (горилла кранч)",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Упражнение лягушка",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ног лежа на горизонтальной скамье",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивание ног к груди на горизонтальной скамье",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивание ног к груди на фитболе",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания на фитболе",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Наклоны в сторону с гантелей",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "«Мельница» с двумя гирями",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ног на наклонной скамье",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Косые скручивания на наклонной скамье",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания на наклонной скамье",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания с ногами на фитболе",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания с руками над головой",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Косые скручивания",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания на блоке",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания на верхнем блоке",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем ягодиц",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем согнутых в коленях ног",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гири в наклоне",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Наклоны в сторону со штангой",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Штанга в качестве гимнастического ролика",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Попеременные боковые скручивания",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "«Велосипед»",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "«Мельница» с гирей (сложный уровень)",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Пресс с гимнастическим роликом",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Скручивания в тренажере для пресса",
+      "targeted_muscles": "Пресс",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Пуловер со штангой на наклонной скамье",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги широким хватом лежа на скамье с отрицательным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим лежа широким хватом",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Пуловер прямыми руками с гантелей лежа на скамье",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим лежа на наклонной скамье в машине Смита",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим лежа в машине Смита",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания с широким упором",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания с ногами на мяче",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания с поднятыми ногами",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Плиометрические отжимания с гирей",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Жим гири одной рукой лежа на полу",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сведение-разведение гантели одной рукой лежа",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим одной рукой лежа на горизонтальной скамье",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим на шею лежа на горизонтальной скамье",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим в тренажере",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гири лежа со скрещенными ногами",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Статическое упражнение для мышц груди",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Жим гантелей лежа на скамье с положительным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сведение гантелей лежа на скамье с положительным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сведения рук на нижнем блоке лежа на наклонной скамье",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гантелей лежа на скамье с положительным наклоном хватом молоток",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Пуловер и подъем",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сведения рук на нижнем блоке лежа",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гири лежа одной рукой",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка грудных мышц отведением плеч",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Энергичная растяжка грудных мышц",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Сведение гантелей лежа",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гантелей лежа",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка грудных мышц лежа на фитболе",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Отжимания на брусьях – вариант для проработки грудных мышц",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сведение гантелей на скамье с отрицательным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гантелей лежа на скамье с отрицательным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги лежа на скамье с отрицательным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Кроссовер с эспандером",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Эспандер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растягивание мышц груди с помощью фитбола",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Фитбол",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растягивание мышц груди и передней части плечевого пояса",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Жим с цепью лежа",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сведение рук в кроссовере",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Сведение рук в тренажере (Бабочка)",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Пуловер с гантелей лежа на скамье",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим лежа на скамье с эспандером",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Эспандер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растягивание грудных мышц заведением рук за голову",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Жим плечами лежа на наклонной скамье",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги лежа на скамье с положительным наклоном",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги лежа",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отведение гантелей через стороны лежа",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Поочередный жим гирь лежа на полу",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гантелей лежа на полу",
+      "targeted_muscles": "Грудь",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания на брусьях",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим с EZ штангой на наклонной скамье",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим гантелями на наклонной скамье",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Комплексное упражнение на трицепс на наклонной скамье",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги лежа узким хватом",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Французский жим на нижнем блоке стоя",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибание на трицепс на верхнем блоке одной рукой",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим нижнего блока на трицепс лежа",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разгибания на трицепс на верхнем блоке лежа на наклонной скамье",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания от скамьи из-за спины",
+      "targeted_muscles": "Трицепсы",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивания широким хватом за голову",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга верхнего блока за голову",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга верхнего блока к груди с V образным грифом",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга верхнего блока к груди обратным хватом",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга верхнего блока с прямыми руками",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растягивание широчайших мышц спины лежа",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подтягивания в стороны",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивания от Рокки",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивания",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растягивание широчайших мышц спины с напарником",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Вис на одной руке",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растягивания широчайших мышц спины в упоре стоя",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подтягивания от Винса Жиронды",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Перекрёстная тяга на блоках",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга к груди в гребном тренажере",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга верхнего блока к груди",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подтягивания обратным хватом",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка широчайших мышц спины сидя",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Пуловер на наклонной скамье в тросовом тренажере",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Пуловер со штангой на прямой скамье",
+      "targeted_muscles": "Широчайшие мышцы спины",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём гирь на плечи",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка дельт стоя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Вертикальная тяга штанги к груди стоя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гантелей стоя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Армейский жим стоя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отведение руки в сторону на нижнем блоке",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Фронтальный подъём штанги над головой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём гантелей над головой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги стоя из-за головы",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги сидя в машине Смита",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём штанги плечами сидя в машине Смита",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Комплексная растяжка дельт",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Растяжка дельт",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Подъём плеч",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Жим стоя с эспандером",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Эспандер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Круговые движения плечами",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Разведение рук с гантелями в стороны сидя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка переднего пучка дельт сидя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Разведение гантелей сидя в наклоне",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги сидя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка задних дельт с гимнастической палкой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Разведение гантелей c вращением лежа на наклонной скамье",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разведение гантелей лежа на наклонной скамье лицом вниз",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем штанги на плечи",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Толчок и жим штанги стоя из-за спины",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Толчок и жим штанги стоя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывок гири одной рукой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разведение рук с гантелями в стороны стоя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём гантели одной рукой в сторону",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гири одной рукой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Толчок гири одной рукой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывок и толчок гири одной рукой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём гантели одной рукой на наклонной скамье",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разведение гантелей в стороны лежа лицом вниз",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём гантели одной рукой лежа на боку",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга к шее в гребном тренажере",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём рук с эспандером стоя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Эспандер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гири от Арнольда Шварценеггера",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Комплексный жим гантелей",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отжимания стоя на руках",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём гантелей перед собой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём блина перед собой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём гантелей перед собой на наклонной скамье",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Попеременный подъём гантелей перед собой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъём рук перед собой в тросовом тренажере",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга к лицу",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Круговые движения локтями",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Жим гантелей сидя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Подъем гантелей",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга гантели к груди",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гантели одной рукой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Изолированное разведение гантелей в стороны двумя руками",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Изолированное разведение гантелей в стороны",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гантелей плечами на наклонной скамье",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Рывок гирь",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Профессионал",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гирь над собой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Толчок гирь над собой",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Попеременная тяга гирь",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Кубинский жим",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растяжка дельт, сидя на стуле",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Комплексный жим штанги сидя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Отведение руки в сторону в наклоне на блоке",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Разведение рук с гантелями в упоре",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим штанги сидя широким хватом",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга штанги к груди в наклоне",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Махи руками с эспандером",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Эспандер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Жим гантелей от Арнольда Шварценеггера",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Круговые движения руками",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Попеременный жим гирь стоя",
+      "targeted_muscles": "Плечи",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга к груди с эспандером",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Эспандер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Вертикальная тяга к груди нижнего блока",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Вертикальная тяга гантелей к груди",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Шраги широким хватом",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга штанги к груди в машине Смита",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Шраги в машине Смита",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Машина Смита",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Тяга гири к груди в стиле Сумо",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Гири",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Шраги с гантелями",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Гантели",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Шраги в тренажере для голеней",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Тренажер",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Шраги на нижнем блоке",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Тросовые тренажеры",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Шраги со штангой из-за спины",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Шраги со штангой",
+      "targeted_muscles": "Трапеции",
+      "type_of_equipment": "Штанга",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Растягивание мышц шеи в стороны",
+      "targeted_muscles": "Шея",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    },
+    {
+      "name": "Поднятие диска, лежа головой вверх на скамье",
+      "targeted_muscles": "Шея",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Поднятие диска, лежа головой вниз на скамье",
+      "targeted_muscles": "Шея",
+      "type_of_equipment": "Другое",
+      "difficulty_level": "Средний",
+      "type_of_exercise": "Силовое"
+    },
+    {
+      "name": "Плиометрическое упражнение на укрепление мышц шеи",
+      "targeted_muscles": "Шея",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Плиометрическое"
+    },
+    {
+      "name": "Тяга головы к груди",
+      "targeted_muscles": "Шея",
+      "type_of_equipment": "Отсутствует",
+      "difficulty_level": "Начинающий",
+      "type_of_exercise": "Растяжка"
+    }
+  ]
+}

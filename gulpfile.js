@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     inject = require('gulp-inject'),
     ngAnnotate = require('gulp-ng-annotate'),
+    flatten = require('gulp-flatten'),
     notify = require('gulp-notify');
 
 // connect
@@ -25,6 +26,7 @@ gulp.task('connect', function () {
 // watch
 gulp.task('watch', function () {
     gulp.watch('app/dev/**/**/**/*.css', ['css']);
+    gulp.watch('app/dev/**/**/**/*.{png,jpg}', ['img']);
     gulp.watch('app/dev/**/**/**/*.json', ['json']);
     gulp.watch('app/dev/**/**/**/*.js', ['js']);
     gulp.watch('app/dev/**/**/**/*.html', ['html', 'inject']);
@@ -40,7 +42,8 @@ gulp.task('css', function () {
         .pipe(concatCss('lib.min.css'))
         .pipe(gulp.dest('app/prod/css'));
     gulp.src([
-            "app/dev/css/style.css"
+            "app/dev/css/style.css",
+            "app/dev/components/**/**/**/*.css"
         ])
         .pipe(concatCss('style.min.css'))
         .pipe(prefix({
@@ -105,9 +108,21 @@ gulp.task('inject', ['html', 'css'], function () {
 // html
 gulp.task('html', ['js'], function () {
     gulp.src('app/dev/**/**/**/*.html')
+        .pipe(gulp.dest('app/prod/'));
+    gulp.src('app/dev/**/**/**/*.png')
+        .pipe(gulp.dest('app/prod/'));
+    gulp.src('app/dev/**/**/**/*.jpg')
         .pipe(gulp.dest('app/prod/'))
         .pipe(connect.reload());
 });
+// img
+gulp.task('img', function () {
+   gulp.src('app/dev/**/**/**/*.{png,jpg}')
+        .pipe(flatten())
+        .pipe(gulp.dest('app/prod/img'))
+        .pipe(connect.reload());
+});
+
 // json
 gulp.task('json', ['js', 'html', 'inject'], function () {
     gulp.src('app/dev/**/*.json')
@@ -116,4 +131,4 @@ gulp.task('json', ['js', 'html', 'inject'], function () {
 });
 
 // default
-gulp.task('default', ['connect', 'css', 'js', 'json', 'html', 'inject', 'watch']);
+gulp.task('default', ['connect', 'img', 'css', 'js', 'json', 'html', 'inject', 'watch']);

@@ -6,30 +6,63 @@
             'ui.router',
             'fitApp.fire',
             'fitApp.navbar',
-            'fitApp.auth'
+            'fitApp.auth',
+            'fitApp.personal.directive'
         ])
         .config(PersonalConfig)
         .controller('PersonalIndexCtrl', PersonalIndexCtrl)
         .factory('UserRepository', UserRepositoryFactory)
+        .factory('UserProfile', UserProfileFactory)
+        .factory('Exercises', ExercisesFactory)
         .controller('PersonalComplexCtrl', PersonalComplexCtrl)
         .controller('PersonalSettingsCtrl', PersonalSettingsCtrl)
         .controller('PersonalStatisticsCtrl', PersonalStatisticsCtrl)
-        .controller('PersonalWorkoutCtrl', PersonalWorkoutCtrl);
+        .controller('PersonalWorkoutCtrl', PersonalWorkoutCtrl)
+        .controller('ExercisesCtrl', ExercisesCtrl);
+
+    // @ngInject
+    function ExercisesFactory(dbc, $firebaseArray) {
+        var o = {};
+        o.getAllExercises = function () {
+            var ref = dbc.getRef();
+            return $firebaseArray(ref.child('exercises'));
+        };
+        return o
+    }
+
+    // @ngInject
+    function ExercisesCtrl(Exercises) {
+        var s = this;
+        s.exercisesList = Exercises.getAllExercises();
+
+    }
+
 
     // @ngInject
     function PersonalConfig($stateProvider, $urlRouterProvider, $locationProvider) {
         $stateProvider
-            .state('Personal', {
-                url: '/personal/:id',
-                templateUrl: 'personal/partial-index.html',
-                controller: 'PersonalIndexCtrl',
-                controllerAs: 'pic'
-            })
             .state('Complex', {
                 url: '/personal/complex',
                 templateUrl: 'personal/partial-complex.html',
                 controller: 'PersonalComplexCtrl',
                 controllerAs: 'pcc'
+            })
+            .state('Personal', {
+                resolve: {
+                    auth: /*@ngInclude*/ function (Authentication) {
+                        return Authentication.requireAuth();
+                    }
+                },
+                url: '/personal/:id',
+                templateUrl: 'personal/partial-index.html',
+                controller: 'PersonalIndexCtrl',
+                controllerAs: 'pic'
+            })
+            .state('Exercises', {
+                url: '/exercises',
+                templateUrl: 'personal/partial-exercises.html',
+                controller: 'ExercisesCtrl',
+                controllerAs: 'ec'
             })
             .state('Settings', {
                 url: '/personal/settings',
@@ -52,6 +85,18 @@
     }
 
     // @ngInject
+    function UserProfileFactory(dbc, $firebaseObject) {
+        var o = {};
+        var ref = dbc.getRef();
+        var usersRef = ref.child('users');
+        o.getUser = function (_id) {
+            return $firebaseObject(usersRef.child(_id)).$loaded();
+        };
+
+        return o;
+    }
+
+    // @ngInject
     function UserRepositoryFactory(dbc, $firebaseArray) {
         var o = {};
         o.getAllUsers = function () {
@@ -70,22 +115,23 @@
     }
 
     // @ngInject
-    function PersonalIndexCtrl($rootScope, $state, UserRepository) {
+    function PersonalIndexCtrl(UserProfile, $rootScope, $state, UserRepository, $stateParams) {
         var s = this;
 
-        s.title = "Личный кабинет";
-        var users = UserRepository.getAllUsers();
-        users.$loaded(function (_usersList) {
-            s.users = _usersList;
+        s.id = $stateParams.id;
+
+
+        UserProfile.getUser(s.id).then(function (_user) {
+            s.title = _user.fullName + ", персональная страница";
+            s.user = _user;
+        }).catch(function (error) {
+            s.title = "Персональная страница.";
+            switch (error.code) {
+                case "PERMISSION_DENIED":
+                    $rootScope.addAlert("danger", "Доступ запрещен");
+                    break;
+            }
         });
-
-        users.$watch(function (_usersList) {
-            users.$loaded().then(function (_usersList) {
-                s.users = _usersList;
-            });
-        });
-
-
     }
 
     // @ngInject
