@@ -16,7 +16,7 @@
                 <li ui-sref-active="active"><a ui-sref="About">About</a></li>
                 <li ui-sref-active="active"><a ui-sref="Contact">Contact</a></li>
                 <li ui-sref-active="active" class="dropdown" ng-if="isAuth">
-                    <a ui-sref="Personal" class="dropdown-toggle" data-toggle="dropdown">Личный кабинет<b
+                    <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">Личный кабинет<b
                             class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li ui-sref-active="active"><a ui-sref="Personal({id:isAuth.uid})" ui-sref-opts="{id:isAuth.uid}">Главная</a></li>

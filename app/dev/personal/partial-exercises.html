@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" infinite-scroll="ec.nextPage()" infinite-scroll-distance="2">
     <div ng-repeat="item in ec.exercisesList" class="panel panel-default">
         <div class="panel-heading">{{item.name}}</div>
         <div class="panel-body">
@@ -8,8 +8,26 @@
                 <li>Уровень сложности: {{item.difficulty_level}}</li>
                 <li>Вид упражнения: {{item.type_of_exercise}}</li>
             </ul>
-            <div class="col-md-2">
-                <button class="btn btn-info">Добавить в мой комплекс</button>
+            <div class="col-md-6">
+                <div class="user-complex-wrap">
+                    <div class="user-complex row" ng-repeat="comp in ec.usersComplex">
+                        <span class="complex-name col-md-8">{{comp.name}}</span>
+                        <button class="btn btn-success action-complex col-md-3 col-md-offset-1"
+                                data-exerc_uid="{{item.$id}}"
+                                add-to-complex
+                                data-uid="{{comp.$id}}">
+                            <i class="fa fa-plus-circle fa-2x"></i>
+                        </button>
+                    </div>
+                    <!--<span class="btn btn-info">Добавить в мой комплекс</span>-->
+                    <!--<div class="user-complex-list">-->
+                    <!--<ul data-exerc_uid="{{item.$id}}">-->
+                    <!--<li ng-repeat="comp in ec.usersComplex"><span add-to-complex data-uid="{{comp.$id}}">{{comp.name}}</span></li>-->
+                    <!--&lt;!&ndash;<li class="loading"><i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i></li>&ndash;&gt;-->
+                    <!--</ul>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
             </div>
         </div>
     </div>

@@ -120,12 +120,12 @@
 
 // @ngInject
     function Run(configOptions, UsersFactory, UsersService, $rootScope) {
+        var spinner = '<div><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></div>';
         $rootScope.alerts = [];
         $rootScope.addAlert = function (_type, _msg) {
             _type = _type || "info";
             $rootScope.alerts.push({type: _type, msg: _msg});
         };
-
         $rootScope.closeAlert = function (index) {
             $rootScope.alerts.splice(index, 1);
         };

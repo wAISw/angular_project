@@ -334,7 +334,17 @@
                     };
                 });
         };
-        //// Проверим авторизован ли пользователь
+        o.googleAuth = function () {
+            return auth.$authWithOAuthPopup("google").then(function (authData) {
+                $rootScope.isAuth = authData;
+                $rootScope.userInf = {
+                    fullName: authData.google.displayName,
+                    uid: authData.uid,
+                    email: null
+                };
+            });
+        };
+        // Проверим авторизован ли пользователь
         $rootScope.isAuth = o.getAuth();
 
         if ($rootScope.isAuth) {

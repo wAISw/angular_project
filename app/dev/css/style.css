@@ -1,3 +1,7 @@
+.width-200 {
+    width: 200px;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -56,12 +60,12 @@ to prevent collapsing during animation*/
 
 [ui-view].ng-enter {
     opacity: 0;
-    transform:translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
 }
 
 [ui-view].ng-enter-active {
     opacity: 1;
-    transform:translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 [ui-view].ng-leave {
@@ -71,3 +75,150 @@ to prevent collapsing during animation*/
 [ui-view].ng-leave-active {
     opacity: 0;
 }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*
+addComplexPage
+*/
+.addComplexFormWrap {
+    padding-top: 30px;
+}
+
+/*effeckt*/
+.effeckt-overlay.effeckt-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.effeckt-modal-wrap {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #000;
+    max-width: 100%;
+    width: auto;
+    max-height: 80%;
+    height: 1px;
+    min-height: 80%;
+}
+
+.effeckt-content {
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 1px;
+}
+
+.effeckt-content h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+}
+
+.effeckt-modal-content {
+    padding: 50px 30px 10px 10px;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: auto;
+}
+
+.effeckt-modal-close {
+    text-shadow: 2px 2px 2px black;
+    color: #ffffff;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -11px;
+    cursor: pointer;
+}
+
+/*effeckt end*/
+/*complex*/
+.complex-exercises {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.user-complex {
+    background: orange;
+    border-radius: 22px;
+    overflow: hidden;
+    margin-right: 25px;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+}
+
+span.complex-name {
+    display: inline-block;
+    line-height: 32px;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.action-complex {
+    position: absolute;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.effeckt-modal-content ul{
+    padding:0;
+    list-style: none;
+}
+.effeckt-modal-content li{
+    padding-left: 16px;
+}
+.effeckt-modal-content li:hover{
+    padding-left: 0;
+}
+.effeckt-modal-content li.exerc:hover i {
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    color: red;
+}
+.effeckt-modal-content li.exerc i {
+    display: none;
+}
+.action-complex i {
+    overflow: hidden;
+    height: 28px;
+    transition: all .2s;
+}
+
+.action-complex i.null {
+    height: 1px;
+    transition: all .2s;
+}
+
+/*complex end*/

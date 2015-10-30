@@ -37,7 +37,10 @@ gulp.task('watch', function () {
 gulp.task('css', function () {
     gulp.src([
             "bower_components/bootstrap/dist/css/bootstrap.min.css",
-            "bower_components/angular-bootstrap/ui-bootstrap-csp.css"
+            "bower_components/angular-bootstrap/ui-bootstrap-csp.css",
+            "node_modules/effeckt/css/effeckt.css",
+            "node_modules/effeckt/css/buttons.css",
+            "node_modules/effeckt/css/modules/modal.css",
         ])
         .pipe(concatCss('lib.min.css'))
         .pipe(gulp.dest('app/prod/css'));
@@ -57,15 +60,20 @@ gulp.task('css', function () {
 //js
 gulp.task('js', function () {
     gulp.src([
+            "bower_components/jquery/dist/jquery.min.js",
+            "bower_components/other-libs/modernizr.js",
             "bower_components/angular/angular.js",
-            "bower_components/jquery/dist/jquery.js",
             "bower_components/bootstrap/dist/js/bootstrap.js",
             "bower_components/angular-ui-router/release/angular-ui-router.js",
             "bower_components/angular-animate/angular-animate.js",
+            "bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js",
             "bower_components/firebase/firebase.js",
             "bower_components/angularfire/dist/angularfire.js",
             "bower_components/angular-bootstrap/ui-bootstrap.js",
-            "bower_components/angular-bootstrap/ui-bootstrap-tpls.js"
+            "bower_components/angular-bootstrap/ui-bootstrap-tpls.js",
+            "node_modules/effeckt/js/core.js",
+            //"node_modules/effeckt/js/modules/buttons.js",
+            "node_modules/effeckt/js/modules/modal.js"
         ])
         .pipe(concat('lib.min.js'))
         .pipe(gulp.dest('app/prod/js'));
@@ -78,7 +86,7 @@ gulp.task('js', function () {
         ])
         .pipe(ngAnnotate())
         .pipe(concat('main.min.js'))
-        .pipe(uglify())
+        //.pipe(uglify())
         .pipe(gulp.dest('app/prod/js'))
         .pipe(connect.reload());
 
