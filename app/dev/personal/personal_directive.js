@@ -14,6 +14,8 @@
         .directive('activeComplex', activeComplexDirective)
         .directive('removeComplex', removeComplexDirective)
         .directive('deleteExerc', deleteExercDirective)
+        .directive('startWorkout', startWorkoutDirective)
+        .directive('buildGraph', buildGraphDirective)
         .directive('showUserComplex', showUserComplexDirective);
 
     // @ngInject
@@ -31,16 +33,149 @@
         s.getExercToComplex = function (comId) {
             return Complex.getExercToComplex(comId);
         };
+        s.getExerc = function (exId) {
+            return Complex.getExerc(exId);
+        };
         s.activateComplex = function (comId, activeFlag) {
             return Complex.activateComplex(comId, activeFlag);
-        }
+        };
         s.removeComplex = function (comId) {
             return Complex.removeComplex(comId);
-        }
+        };
+        s.removeExerc = function (comId, exercId) {
+            return Complex.removeExerc(comId, exercId);
+        };
+        s.startWorkout = function (comId) {
+            return Complex.startWorkout (comId);
+        };
+        s.setExercCount = function (comId, exId, count) {
+            return Complex.setExercCount (comId, exId, count);
+        };
     }
 
     // @ngInject
-    function removeComplexDirective() {
+    function buildGraphDirective() {
+        return {
+            restrict: 'A',
+            controller: 'complexDirectiveCtrl',
+            link: function (scope, elem, attr, ctrl) {
+
+            }
+        };
+    }
+
+    // @ngInject
+    function startWorkoutDirective($state, $rootScope) {
+        return {
+            restrict: 'A',
+            controller: 'complexDirectiveCtrl',
+            link: function (scope, elem, attr, ctrl) {
+                $(".reset-complex-wrap").click(function (k, el) {
+                    elem.closest('.set-complex-wrap').slideDown(200);
+                    $(".reset-complex-wrap").slideUp(200);
+                });
+                var exKey = 0;
+                var exercArray = [];
+                elem.on('click', function () {
+                    var comId = $("select#complex-name").val();
+                    if(comId==null){
+                        $rootScope.addAlert("danger", "Сначала, нужно добавить комплес, и упражнения.");
+                        return false;
+                    }
+                    elem.closest('.set-complex-wrap').slideUp(200);
+                    $(".reset-complex-wrap").slideDown(200);
+                    ctrl.startWorkout(comId)
+                        .then(function (data) {
+                            angular.forEach(data, function (el, k) {
+                                exercArray.push(k);
+                            });
+                            // получим упражнение
+                            ctrl.getExerc(exercArray[exKey])
+                                .then(function (exData) {
+                                    $('#current-exerc div.panel-heading h4').html(exData.name);
+                                    $('#current-exerc div.panel-body span.exerc-count').html(0);
+                                    $('#current-exerc div.panel-body input#exerc-val').val(0);
+                                    $('#current-exerc').slideDown(200);
+                                });
+                        })
+                        .catch(function (error) {
+                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+
+                        });
+                });
+                $(".next-exerc").on('click', function () {
+                    if (exercArray.length <= exKey) {
+                        return false;
+                    }
+                    var comId = $("select#complex-name").val();
+                    var count = $("#exerc-val").val();
+                    ctrl.setExercCount(comId, exercArray[exKey], count)
+                        .then(function (data) {
+                            if (data.res) { // Полчим следующее упражнение
+                                exKey++;
+                                ctrl.getExerc(exercArray[exKey])
+                                    .then(function (exData) {
+                                        $('#current-exerc div.panel-heading h4').html(exData.name);
+                                        $('#current-exerc div.panel-body span.exerc-count').html(0);
+                                        $('#current-exerc div.panel-body input#exerc-val').val(0);
+                                        if (exKey > 0) {
+                                            $(".prew-exerc").removeClass('non-active');
+                                        }
+                                        if (exercArray.length - 1 <= exKey) {
+                                            $(".next-exerc").addClass('non-active');
+                                        }
+                                    });
+                            }
+                        })
+                        .catch(function (error) {
+                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                        });
+                });
+                $(".prew-exerc").on('click', function () {
+                    if (exKey == 0) {
+                        return false;
+                    }
+                    var comId = $("select#complex-name").val();
+                    var count = $("#exerc-val").val();
+                    ctrl.setExercCount(comId, exercArray[exKey], count)
+                        .then(function (data) {
+                            if (data.res) { // Полчим следующее упражнение
+                                exKey--;
+                                ctrl.getExerc(exercArray[exKey])
+                                    .then(function (exData) {
+                                        $('#current-exerc div.panel-heading h4').html(exData.name);
+                                        $('#current-exerc div.panel-body span.exerc-count').html(0);
+                                        $('#current-exerc div.panel-body input#exerc-val').val(0);
+                                        if (exKey == 0) {
+                                            $(".prew-exerc").addClass('non-active');
+                                        }
+                                        if (exercArray.length - 1 > exKey) {
+                                            $(".next-exerc").removeClass('non-active');
+                                        }
+                                    });
+                            }
+                        })
+                        .catch(function (error) {
+                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                        });
+                });
+                $("#end_workout").on('click', function () {
+                    var comId = $("select#complex-name").val();
+                    var count = $("#exerc-val").val();
+                    ctrl.setExercCount(comId, exercArray[exKey], count)
+                        .then(function (data) {
+                            $state.go("Statistics");
+                        })
+                        .catch(function (error) {
+                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                        });
+                });
+            }
+        };
+    }
+
+    // @ngInject
+    function removeComplexDirective($rootScope) {
         return {
             restrict: 'A',
             controller: 'complexDirectiveCtrl',
@@ -57,7 +192,7 @@
                             }
                         })
                         .catch(function (error) {
-                            alert("Произошла ошибка, обратитесь к администратору сайта!");
+                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
                         });
                 });
             }
@@ -65,7 +200,7 @@
     }
 
     // @ngInject
-    function activeComplexDirective() {
+    function activeComplexDirective($rootScope) {
         return {
             restrict: 'A',
             controller: 'complexDirectiveCtrl',
@@ -104,7 +239,7 @@
                             }
                         })
                         .catch(function (error) {
-                            alert("Произошла ошибка, обратитесь к администратору сайта!");
+                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
                         });
                 });
             }
@@ -112,7 +247,7 @@
     }
 
     // @ngInject
-    function showComplexEsercDirective() {
+    function showComplexEsercDirective($compile) {
         return {
             restrict: 'A',
             controller: 'complexDirectiveCtrl',
@@ -127,13 +262,14 @@
                         .then(function (data) {
                             var exercLIst = '';
                             angular.forEach(data, function (el) {
-                                exercLIst += '<li class="exerc" delete-exerc '+
-                                             'data-exerc-id="'+el.$id+'">'+
-                                             '<i class="fa fa-times"></i>' + el.name + '</li>';
+                                exercLIst += '<li class="exerc" delete-exerc ' +
+                                    'data-exerc-id="' + el.$id + '">' +
+                                    '<i class="fa fa-times"></i>' + el.name + '</li>';
                             });
-                            elem.siblings('div.effeckt-wrap.effeckt-modal-wrap')
+                            $compile(elem.siblings('div.effeckt-wrap.effeckt-modal-wrap')
                                 .find('div.effeckt-modal-content')
-                                .html('<ul>' + exercLIst + '</ul>');
+                                .html('<ul>' + exercLIst + '</ul>')
+                            )(scope);
                             elem.siblings('span.effeckt-modal-button').click();
                             elem.removeAttr('data-loading');
                         });
@@ -141,8 +277,9 @@
             }
         };
     }
+
     // @ngInject
-    function deleteExercDirective() {
+    function deleteExercDirective($rootScope) {
         return {
             restrict: 'A',
             controller: 'complexDirectiveCtrl',
@@ -150,29 +287,22 @@
                 uid: '@exercId'
             },
             link: function (scope, elem, attr, ctrl) {
-                console.log(scope);
-                var comId = scope.uid;
+                var comId = elem.closest(".effeckt-modal-wrap").attr("id").replace("complex", '');
                 elem.on("click", function () {
-                    console.log(scope);
-                    //elem.attr('data-loading', true);
-                    //ctrl.getExercToComplex(comId)
-                    //    .then(function (data) {
-                    //        var exercLIst = '';
-                    //        angular.forEach(data, function (el) {
-                    //            exercLIst += '<li class="exerc" data-exerc-id="'+el.$id+'"><i class="fa fa-times"></i>' + el.name + '</li>';
-                    //        });
-                    //        elem.siblings('div.effeckt-wrap.effeckt-modal-wrap')
-                    //            .find('div.effeckt-modal-content')
-                    //            .html('<ul>' + exercLIst + '</ul>');
-                    //        elem.siblings('span.effeckt-modal-button').click();
-                    //        elem.removeAttr('data-loading');
-                    //    });
+                    ctrl.removeExerc(comId, scope.uid)
+                        .then(function (data) {
+                            elem.remove();
+                        })
+                        .catch(function (error) {
+                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                        });
                 });
             }
         }
     }
+
     // @ngInject
-    function addToComplexDirective() {
+    function addToComplexDirective($rootScope) {
         return {
             restrict: 'A',
             controller: 'complexDirectiveCtrl',
@@ -199,7 +329,7 @@
                             }
                         })
                         .catch(function (error) {
-                            alert("Произошла ошибка, обратитесь к администратору сайта!");
+                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
                         });
                 });
             }

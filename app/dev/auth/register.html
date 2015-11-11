@@ -4,7 +4,6 @@
     </div>
     <div class="row">
         <div class="col-sm-6 col-md-4">
-            <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
             <form name="registerForm" class="form" novalidate ng-submit="ac.registerUser()">
                 <div class="form-group"
                      ng-class="{'has-error':registerForm.fullName.$invalid && registerForm.fullName.$dirty}">

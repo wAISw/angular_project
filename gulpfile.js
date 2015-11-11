@@ -72,8 +72,9 @@ gulp.task('js', function () {
             "bower_components/angular-bootstrap/ui-bootstrap.js",
             "bower_components/angular-bootstrap/ui-bootstrap-tpls.js",
             "node_modules/effeckt/js/core.js",
-            //"node_modules/effeckt/js/modules/buttons.js",
-            "node_modules/effeckt/js/modules/modal.js"
+            "node_modules/effeckt/js/modules/modal.js",
+            "bower_components/d3/d3.min.js",
+            "bower_components/n3-line-chart/build/line-chart.min.js"
         ])
         .pipe(concat('lib.min.js'))
         .pipe(gulp.dest('app/prod/js'));

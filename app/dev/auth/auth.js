@@ -47,7 +47,7 @@
     }
 
     // @ngInject
-    function AuthCtrl($state, dbc, $firebaseArray, UserRepository, $rootScope, Authentication) {
+    function AuthCtrl($state, dbc, $firebaseArray, UserRepository, $rootScope, Authentication, $location) {
         // Проверим, если пользователь авторизован,
         // то запретим ему посещение
         // страниц авторизации и регистрации
@@ -116,7 +116,6 @@
                 }).catch(function (error) {
                     $rootScope.isAuth = false;
                     Authentication.deleteUserInf();
-                    $rootScope.closeAlert();
                     switch (error.code) {
                         case "INVALID_EMAIL":
                             $rootScope.addAlert("danger", "Некорректно введен Email");
@@ -137,13 +136,11 @@
             Authentication.authObj(s.authUserInf)
                 .then(function (authData) {
                     resetObj(s.authUserInf);
-                    $rootScope.closeAlert();
                     $rootScope.isAuth = authData;
                     $rootScope.userInf = Authentication.getUser(authData);
                     $state.go("Personal", {id: authData.uid});
                 }).catch(function (error) {
                 Authentication.deleteUserInf();
-                $rootScope.closeAlert();
                 switch (error.code) {
                     case "INVALID_EMAIL":
                         $rootScope.addAlert("danger", "Неверный Email или пароль!");
@@ -169,16 +166,13 @@
         s.resetPassword = function () {
             Authentication.resetPassword(s.authUserInf)
                 .then(function () {
-                    $rootScope.closeAlert();
                     $rootScope.addAlert("success", "Новый пароль выслан вам на Email.");
                 }).catch(function (error) {
                 switch (error.code) {
                     case "INVALID_USER":
-                        $rootScope.closeAlert();
                         $rootScope.addAlert("danger", "Такого пользователя не существует!");
                         break;
                     default:
-                        $rootScope.closeAlert();
                         $rootScope.addAlert("danger", "Упс! Что то пошло не так, попробуйте еще раз!");
                 }
             });
@@ -187,10 +181,8 @@
             if (s.changePassword.newPassword == s.changePassword.newPasswordConfirm) {
                 Authentication.changePassword(s.changePassword).then(function () {
                     resetObj(s.changePassword);
-                    $rootScope.closeAlert();
                     $rootScope.addAlert("success", "Пароль успешно изменен!");
                 }).catch(function (error) {
-                    $rootScope.closeAlert();
                     switch (error.code) {
                         case "INVALID_USER":
                             $rootScope.addAlert("danger", "Такого пользователя не существует!");
@@ -209,28 +201,24 @@
         s.fbAuth = function () {
             Authentication
                 .fbAuth().then(function (authData) {
-                $rootScope.closeAlert();
                 $state.go("Personal", {id: $rootScope.userInf.uid});
             });
         };
         s.fbRegister = function () {
             Authentication
                 .fbRegister().then(function (authData) {
-                $rootScope.closeAlert();
                 $state.go("Personal", {id: $rootScope.userInf.uid});
             });
         };
         s.googleAuth = function () {
             Authentication
                 .googleAuth().then(function (authData) {
-                $rootScope.closeAlert();
                 $state.go("Personal", {id: $rootScope.userInf.uid});
             });
         };
         s.googleRegister = function () {
             Authentication
                 .googleRegister().then(function (authData) {
-                $rootScope.closeAlert();
                 $state.go("Personal", {id: $rootScope.userInf.uid});
             });
         };
@@ -256,11 +244,11 @@
             return auth.$authWithPassword(authUserInf);
         };
         o.logOut = function () {
-            auth.$onAuth(function (authData) {
-                auth.$unauth();
-            });
-            $state.go("Home");
+            auth.$unauth();
+            //auth.$onAuth(function (authData) {
+            //});
             o.deleteUserInf();
+            $state.go("Home");
         };
         o.register = function (newUser) {
             return auth.$createUser({

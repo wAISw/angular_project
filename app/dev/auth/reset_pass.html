@@ -4,7 +4,6 @@
     </div>
     <div class="row">
         <div ng-if="!isAuth" class="col-sm-6 col-md-4">
-            <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
             <form name="resetPassForm" class="form" novalidate ng-submit="ac.resetPassword()">
                 <div class="form-group"
                      ng-class="{'has-error':resetPassForm.email.$invalid && resetPassForm.email.$dirty}">

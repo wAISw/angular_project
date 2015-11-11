@@ -4,7 +4,6 @@
     </div>
     <div class="row">
         <div ng-if="!isAuth" class="col-sm-6 col-md-4">
-            <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
             <form name="authForm" class="form" novalidate ng-submit="ac.authUser()">
                 <div class="form-group"
                      ng-class="{'has-error':authForm.email.$invalid && authForm.email.$dirty}">

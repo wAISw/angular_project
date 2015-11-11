@@ -5,8 +5,6 @@
                 <h1 class="ng-binding">{{ pcc.title }}</h1>
             </div>
             <div class="col-md-8 text-right addComplexFormWrap">
-                <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}
-                </alert>
                 <form class="form-inline" name="addComplexForm" novalidate>
                     <div class="form-group">
                         <label class="sr-only" for="ComplexName">Название комплекса</label>
@@ -27,13 +25,13 @@
                                id="DescriptionComplex"
                                placeholder="Описание комплекса">
                     </div>
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox"
-                                   ng-model="pcc.addComplexForm.ComplexActive"
-                                   name="ComplexActive"> Активность
-                        </label>
-                    </div>
+                    <!--<div class="checkbox">-->
+                        <!--<label>-->
+                            <!--<input type="checkbox"-->
+                                   <!--ng-model="pcc.addComplexForm.ComplexActive"-->
+                                   <!--name="ComplexActive"> Активность-->
+                        <!--</label>-->
+                    <!--</div>-->
                     <button type="button" ng-click="pcc.addComplex()" class="btn btn-info">Создать комплекс</button>
                 </form>
             </div>
@@ -52,15 +50,15 @@
             <p>{{complex.description}}</p>
 
             <div class="btn-group-vertical width-200">
-                <button class="btn effect-button"
-                        ng-class="complex.active?'btn-success':'btn-danger'"
-                        change-html="complex.active?'деактивировать':'активировать'"
-                        data-effeckt-type="expand-right"
-                        data-complex-id="{{complex.$id}}"
-                        data-complex-active="complex.active"
-                        active-complex><span class="label">{{complex.active?'активен':'Не активен'}}</span>
-                    <span class="spinner"></span>
-                </button>
+                <!--<button class="btn effect-button"-->
+                        <!--ng-class="complex.active?'btn-success':'btn-danger'"-->
+                        <!--change-html="complex.active?'деактивировать':'активировать'"-->
+                        <!--data-effeckt-type="expand-right"-->
+                        <!--data-complex-id="{{complex.$id}}"-->
+                        <!--data-complex-active="complex.active"-->
+                        <!--active-complex><span class="label">{{complex.active?'активен':'Не активен'}}</span>-->
+                    <!--<span class="spinner"></span>-->
+                <!--</button>-->
                 <button class="btn btn-danger"
                         ng-click="pcc.delete_quest(complex.$id)"
                 ><span class="label">Удалить</span>

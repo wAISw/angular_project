@@ -1,6 +1,34 @@
-<div class="container" ng-controller="PersonalWorkoutCtrl as _pwc_">
+<div class="container">
     <div class="page-header ng-scope">
-        <h1 class="ng-binding">{{ _pwc_.title }}</h1>
+        <h1 class="ng-binding">{{ pwc.title }}</h1>
+    </div>
+    <div class="row text-right set-complex-wrap">
+        <div class="col-md-10">
+            <label for="complex-name">Выберите комплекс</label>
+            <select id="complex-name" class="form-control">
+                <option ng-repeat="com in pwc.complexList" value="{{com.$id}}">{{com.name}}</option>
+            </select>
+        </div>
+        <div class="col-md-2 text-center complex-button-set">
+            <button type="button" start-workout class="btn btn-info">Начать тренировку</button>
+        </div>
+    </div>
+    <div class="reset-complex-wrap" style="display: none;">
+        <button type="button" class="btn btn-info">Выбрать другой комплекс</button>
+    </div>
+    <div class="panel panel-info text-center" id="current-exerc">
+        <div class="panel-heading"><h4></h4></div>
+        <div class="panel-body">
+            <i class="prew-exerc fa fa-arrow-circle-left non-active col-xs-3 col-sm-3 col-md-3 col-lg-3"></i>
+            <button class="set-exerc-count col-xs-6 col-sm-6 col-md-6 col-lg-offset-1 col-lg-4" ng-click="pwc.plusOne()">
+                <span class="exerc-count"></span>
+                <input type="hidden" id="exerc-val" value="0">
+            </button>
+            <i class="next-exerc fa fa-arrow-circle-right col-xs-3 col-sm-3 col-md-3 col-lg-offset-1 col-lg-3"></i>
+        </div>
+        <div class="panel-footer text-center">
+            <button id="end_workout" class="btn btn-success">Завершить комплекс</button>
+        </div>
     </div>
 </div>
 

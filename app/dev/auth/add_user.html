@@ -3,7 +3,6 @@
         <h1>Добавление пользователей в таблицу users</h1>
     </div>
     <div class="row">
-        <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
         <form name="newUserForm" class="form-inline" novalidate ng-submit="ac.addNewUser()">
             <div class="form-group"
                  ng-class="{'has-error':newUserForm.name.$invalid && newUserForm.name.$dirty}">
