@@ -25,7 +25,7 @@
 
 <body>
 <div class="alerts-wrap">
-    <alert ng-cloak ng-repeat="alert in alerts" type="{{alert.type}}" dismiss-on-timeout="500" close="closeAlert($index)">{{alert.msg}}</alert>
+    <alert ng-cloak ng-repeat="alert in alerts" type="{{alert.type}}" dismiss-on-timeout="500" close="closeAlert($index)" class="ng-cloak">{{alert.msg}}</alert>
 </div>
 <div ng-include="'components/navbar/navbar.html'"></div>
 

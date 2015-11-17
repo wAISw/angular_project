@@ -6,15 +6,16 @@
             </div>
             <div class="col-md-8 text-right addComplexFormWrap">
                 <form class="form-inline" name="addComplexForm" novalidate>
-                    <div class="form-group">
+                    <div class="form-group"
+                         ng-class="{'has-error':addComplexForm.ComplexName.$invalid && addComplexForm.ComplexName.$dirty}">
                         <label class="sr-only" for="ComplexName">Название комплекса</label>
                         <input type="text"
                                class="form-control"
                                name="ComplexName"
                                ng-model="pcc.addComplexForm.ComplexName"
                                id="ComplexName"
-                               ng-class="{'has-error':addComplexForm.ComplexName.$invalid && addComplexForm.ComplexName.$dirty}"
-                               placeholder="Название комплекса">
+                               placeholder="Название комплекса"
+                               required>
                     </div>
                     <div class="form-group">
                         <label class="sr-only" for="DescriptionComplex">Описание комплекса</label>
@@ -67,7 +68,7 @@
                 <span class="effeckt-modal-button"
                   data-effeckt-type="from-above"
                   data-effeckt-target="#complex{{complex.$id}}"></span>
-                <div class="effeckt-wrap effeckt-modal-wrap" id="complex{{complex.$id}}">
+                <div class="effeckt-wrap effeckt-modal-wrap complex-exercises-modal-wrap" id="complex{{complex.$id}}">
                     <div class="effeckt-content effeckt-modal" id="effeckt-modal">
                         <i class="effeckt-modal-close fa fa-times fa-2x"></i>
 

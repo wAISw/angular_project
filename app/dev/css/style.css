@@ -369,3 +369,12 @@ div.alert.remove {
 }
 
 /*alerts end*/
+div.complex-exercises-modal-wrap {
+    height: 1px;
+    min-height: 80%;
+}
+
+div.complex-exercises-modal-wrap div.effeckt-content.effeckt-modal{
+    height: 1px;
+    min-height:99%;
+}

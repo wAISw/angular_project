@@ -79,7 +79,7 @@
                 elem.on('click', function () {
                     var comId = $("select#complex-name").val();
                     if(comId==null){
-                        $rootScope.addAlert("danger", "Сначала, нужно добавить комплес, и упражнения.");
+                        $rootScope.$apply($rootScope.addAlert("danger", "Сначала, нужно добавить комплес, и упражнения."));
                         return false;
                     }
                     elem.closest('.set-complex-wrap').slideUp(200);
@@ -99,7 +99,7 @@
                                 });
                         })
                         .catch(function (error) {
-                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                            $rootScope.$apply($rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта."));
 
                         });
                 });
@@ -128,7 +128,7 @@
                             }
                         })
                         .catch(function (error) {
-                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                            $rootScope.$apply($rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта."));
                         });
                 });
                 $(".prew-exerc").on('click', function () {
@@ -156,7 +156,7 @@
                             }
                         })
                         .catch(function (error) {
-                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                            $rootScope.$apply($rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта."));
                         });
                 });
                 $("#end_workout").on('click', function () {
@@ -167,7 +167,7 @@
                             $state.go("Statistics");
                         })
                         .catch(function (error) {
-                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                            $rootScope.$apply($rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта."));
                         });
                 });
             }
@@ -192,7 +192,7 @@
                             }
                         })
                         .catch(function (error) {
-                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                            $rootScope.$apply($rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта."));
                         });
                 });
             }
@@ -239,7 +239,7 @@
                             }
                         })
                         .catch(function (error) {
-                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                            $rootScope.$apply($rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта."));
                         });
                 });
             }
@@ -294,7 +294,7 @@
                             elem.remove();
                         })
                         .catch(function (error) {
-                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                            $rootScope.$apply($rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта."));
                         });
                 });
             }
@@ -329,7 +329,7 @@
                             }
                         })
                         .catch(function (error) {
-                            $rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта.");
+                            $rootScope.$apply($rootScope.addAlert("danger", "Произошла ошибка, обратитесь к администратору сайта."));
                         });
                 });
             }

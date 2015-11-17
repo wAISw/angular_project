@@ -180,18 +180,22 @@
             $("#remove-complex-button").click();
         };
         s.addComplex = function () {
-            Complex
-                .addNewComplex(s.addComplexForm)
-                .then(function (data) {
-                    $rootScope.addAlert("success", "Комплекс успешно добавлен.");
-                }).catch(function (error) {
-                $rootScope.closeAlert();
-                switch (error.code) {
-                    case "needAuth":
-                        $rootScope.addAlert("danger", error.text);
-                        break;
-                }
-            });
+            if(s.addComplexForm.ComplexName!="") {
+                Complex
+                    .addNewComplex(s.addComplexForm)
+                    .then(function (data) {
+                        $rootScope.addAlert("success", "Комплекс успешно добавлен.");
+                    }).catch(function (error) {
+                    $rootScope.closeAlert();
+                    switch (error.code) {
+                        case "needAuth":
+                            $rootScope.addAlert("danger", error.text);
+                            break;
+                    }
+                });
+            }else{
+                $rootScope.addAlert("danger", "Заполните название комплекса.");
+            }
         };
         s.complexList = Complex.getComplex();
     }
